@@ -19,7 +19,7 @@ export default function LoginPage() {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
                 cumque corrupti dicta. Magni, eius accusantium animi et minima
-                sed alias pariatur eos
+                sed alias pariatur eo
               </p>
               <Image
                 src="/undraw_Educator_re_ju47.svg"
