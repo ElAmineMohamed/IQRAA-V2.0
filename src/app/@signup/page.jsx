@@ -6,7 +6,7 @@ import {
 } from "react-icons/fa6";
 import styles from "./loginPage.module.scss";
 import Image from "next/image";
-
+import Button from "../../components/button/Button";
 export default function LoginPage() {
   return (
     <>
@@ -31,13 +31,13 @@ export default function LoginPage() {
             <div className={styles.right}>
               <form action="">
                 <label htmlFor="email">Email:</label>
-                <input type="email" placeholder="email" />
+                <input type="email" placeholder="Email" />
                 <label htmlFor="password">Password:</label>
-                <input type="password" placeholder="password" />
+                <input type="password" placeholder="Password" />
                 <button type="submet">log in</button>
               </form>
               <span>forget password ?</span>
-              <button className={styles.create}>create new account</button>
+              <Button />
             </div>
           </div>
         </div>
