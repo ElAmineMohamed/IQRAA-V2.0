@@ -10,6 +10,8 @@ export default function GG() {
   return (
     <>
       <main className={styles.main}>
+        <h1 className={styles.logo}>IQRAA</h1>
+        <span>SignUP</span>
         <div className={styles.container}>
           <form action="">
             <label htmlFor="email">Email :</label>
@@ -20,6 +22,7 @@ export default function GG() {
             <input type="password" placeholder="Password" />
             <label htmlFor="password">password :</label>
             <input type="password" placeholder="Password" />
+          <button>Submet</button>
           </form>
         </div>
         <footer className={styles.footer}>

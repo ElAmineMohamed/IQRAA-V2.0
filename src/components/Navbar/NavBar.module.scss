@@ -1,0 +1,41 @@
+@import "../../style/variabels.scss";
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffff;
+  height: 50px;
+  box-shadow: 0px 2px 10px $box-sh;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    margin: 0px 20px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: $bg-btn;
+  }
+  input {
+    background: #dddd;
+    border-radius: 30px;
+    height: 2rem;
+  }
+}
+.midel {
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li {
+      margin: 0px 20px;
+      a{
+        svg{
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}

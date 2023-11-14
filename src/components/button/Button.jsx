@@ -9,7 +9,7 @@ export default function Button() {
       <button
         className={styles.create}
         onClick={() => {
-          router.push("/gg");
+          router.push("/signup");
         }}
       >
         create new acount
