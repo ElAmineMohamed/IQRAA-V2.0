@@ -1,0 +1,74 @@
+@import "../../style/variabels.scss";
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffff;
+  width: 900px;
+  margin: 30px auto 0px auto;
+  border-radius: 30px;
+  flex-direction: column;
+  padding: 20px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .title {
+    display: flex;
+    align-items: center;
+    h1 {
+      margin: 10px;
+    }
+  }
+  .right {
+    p {
+      margin: 10px;
+    }
+    display: flex;
+    align-items: center;
+  }
+}
+
+.question {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  p {
+    margin: 10px;
+  }
+  ul {
+    width: 100%;
+    padding: 5px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(2, auto);
+    gap: 70px;
+    li {
+      cursor: pointer;
+      margin-right: 20px;
+      min-width: 200px;
+      padding: 10px;
+      background: #aaaa;
+      border-radius: 30px;
+    }
+  }
+}
+.np {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+  justify-content: space-around;
+  align-items: center;
+  button {
+    padding: 5px;
+    width: 100px;
+    background: $bg-btn;
+    border-radius: 30px;
+  }
+}

@@ -1,11 +1,9 @@
-import Puzzle from '@/components/puzzle/Puzzle'
-import React from 'react'
-
+import Puzzle from "@/components/puzzle/Puzzle";
+import styles from "./puzzel.module.scss";
 export default function page() {
   return (
-    <div>
-        <Puzzle/>
+    <div className={styles.container}>
+      <Puzzle />
     </div>
-  )
+  );
 }
-
