@@ -7,6 +7,9 @@
   background: #ffff;
   height: 50px;
   box-shadow: 0px 2px 10px $box-sh;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 .left {
   display: flex;
@@ -31,9 +34,9 @@
     justify-content: space-between;
     li {
       margin: 0px 20px;
-      a{
-        svg{
-          font-size: 2rem;
+      a {
+        svg {
+          font-size: 2.5rem;
         }
       }
     }

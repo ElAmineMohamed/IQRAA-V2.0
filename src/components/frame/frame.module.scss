@@ -1,0 +1,60 @@
+@import "../../style/variabels.scss";
+.container {
+    font-size: 1.30rem;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  background: #ffff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px $box-sh;
+  padding: 10px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  h2 {
+    font-size: 1.40rem;
+    margin: 0px 10px 0px 5px;
+    font-weight: 700;
+  }
+  span {
+    color: $color-ntf;
+    font-weight: 500;
+  }
+  h1 {
+    margin: 0px 15px 0px 0px;
+    font-weight: 600;
+    color: $color-ntf;
+  }
+}
+.contant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0px;
+  .status {
+    margin-bottom: 10px;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.like{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    .arw{
+        button{
+            margin: 10px;
+        }
+    }
+}
+

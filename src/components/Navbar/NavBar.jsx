@@ -18,7 +18,7 @@ export default function NavBar() {
           <ul>
             <li>
               <Link href="/">
-                <IoHomeOutline value={{ style: { background: "black" } }} />
+                <IoHomeOutline />
               </Link>
             </li>
             <li>

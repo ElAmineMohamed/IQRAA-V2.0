@@ -13,8 +13,7 @@ export default function RootLayout({ children, signup }) {
 
   return (
     <html lang="en">
-      <body className={inter.className}>
-        {login ? children : signup}</body>
+      <body className={inter.className}>{login ? children : signup}</body>
     </html>
   );
 }
