@@ -8,7 +8,9 @@ export default function NavBar() {
     <>
       <nav className={styles.nav}>
         <div className={styles.left}>
-          <span>IQRAA</span>
+          <span>
+            <Link href="/">IQRAA</Link>
+          </span>
           <input type="search" />
           <button>
             <FaSearch />
